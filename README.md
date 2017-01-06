@@ -9,7 +9,7 @@
 #### Credits
 
 ###### Categories 
-- https://blog.zsec.uk/ltr101-methodologies/
+- https://blog.zsec.uk/ltr101-methodologies/ - @ZephrFish
 
 ###### Resources
 - -.-
