@@ -2,7 +2,7 @@
 ![hacking-resource](https://github.com/dhaval17/hacking-resources/raw/assets/images/hacker.jpg)
 
 
-#### Submitting new resource
+#### Submitting new resource either :
 - Send a pull request
 - Create an [issue](https://github.com/dhaval17/hacking-resources/issues/new)
 
