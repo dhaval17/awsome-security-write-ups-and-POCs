@@ -17,7 +17,7 @@
 3. http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html
 4. https://whitton.io/articles/content-types-and-xss-facebook-studio/
 5. http://silentzzz.blogspot.com/2007/11/facebook-xss-vulnerability.html
-
+6. http://maustin.net/2010/07/06/facebook_html5.html
 - Cross Site Request Frogery - CSRF
 - Application/Business Logic
 - SQL Injection - SQLi
