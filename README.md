@@ -12,7 +12,8 @@
 
 ###### Cross Site Scripting - XSS
 
-1. http://masatokinugawa.l0.cm/2013/06/accounts.google.com-utf-32-xss.html
+1. [
+XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/accounts.google.com-utf-32-xss.html) - [@kinugawamasato](https://twitter.com/kinugawamasato)
 2. https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/
 3. http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html
 4. https://whitton.io/articles/content-types-and-xss-facebook-studio/
@@ -21,9 +22,9 @@
 
 ###### Cross Site Request Frogery - CSRF
 ###### Application/Business Logic
-- SQL Injection - SQLi
-- InDirect Object Reference - IDOR
-- Memory Corruption
+###### SQL Injection - SQLi
+###### InDirect Object Reference - IDOR
+###### Reverse Engineering
 
 ###### Research Papers
 
