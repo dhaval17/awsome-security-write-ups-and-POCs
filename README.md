@@ -11,10 +11,15 @@
 ###### Blogs/Write ups
 
 - Cross Site Scripting - XSS
+
 -- http://masatokinugawa.l0.cm/2013/06/accounts.google.com-utf-32-xss.html
+
 -- https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/
+
 -- http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html
+
 -- https://whitton.io/articles/content-types-and-xss-facebook-studio/
+
 - Cross Site Request Frogery - CSRF
 - Application/Business Logic
 - SQL Injection - SQLi
