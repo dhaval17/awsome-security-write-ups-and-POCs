@@ -16,6 +16,7 @@
 2. https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/
 3. http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html
 4. https://whitton.io/articles/content-types-and-xss-facebook-studio/
+5. http://silentzzz.blogspot.com/2007/11/facebook-xss-vulnerability.html
 
 - Cross Site Request Frogery - CSRF
 - Application/Business Logic
