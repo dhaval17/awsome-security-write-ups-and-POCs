@@ -1,4 +1,6 @@
 ## Hacking Resource
+####  Not mine not yours, It's everyone's. Feel free to contribute.
+
 ![hacking-resource](https://github.com/dhaval17/hacking-resources/raw/assets/images/hacker.jpg)
 
 
@@ -24,6 +26,8 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### SQL Injection - SQLi
 ###### InDirect Object Reference - IDOR
 ###### Reverse Engineering
+###### DNS Related
+1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
 
 ###### Research Papers
 
