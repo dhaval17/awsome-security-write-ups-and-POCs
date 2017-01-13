@@ -35,7 +35,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 #### Credits
 
 ###### Categories 
-- https://blog.zsec.uk/ltr101-methodologies/ - @ZephrFish
+- [LtR101: Web Application Testing Methodologies](https://blog.zsec.uk/ltr101-methodologies/) - [@ZephrFish](https://twitter.com/ZephrFish)
 
 ###### Resources
 - -.-
