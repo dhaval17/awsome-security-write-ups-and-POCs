@@ -22,14 +22,23 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 5. [Facebook XSS via Cross-Origin Resource Sharing](http://maustin.net/2010/07/06/facebook_html5.html) - [@mattaustin](https://twitter.com/mattaustin)
 6. [Stored XSS at Parse](https://dr4cun0.com/blog/stored-xss-at-parse/) - [Dhaval](https://twitter.com/17haval)
 7. [XSS in OAuth flow of Paypal](https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/) - [Dhaval](https://twitter.com/17haval)
+
 ###### Cross Site Request Frogery - CSRF
+
 ###### Server Side Request Frogery - SSRF
+
 1. [SSRF at Update Subscription Menu](https://dr4cun0.com/blog/ssrf-at-update-subscription-menu/) - [Dhaval](https://twitter.com/17haval)
+
 ###### Application/Business Logic
+
 ###### SQL Injection - SQLi
+
 ###### InDirect Object Reference - IDOR
+
 ###### Reverse Engineering
+
 ###### DNS Related
+
 1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
 2. [That (.) Which Made The Difference](https://dr4cun0.com/blog/that-which-made-the-difference/) - [Dhaval](https://twitter.com/17haval)
 
