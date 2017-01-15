@@ -22,12 +22,12 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 5. [Facebook XSS via Cross-Origin Resource Sharing](http://maustin.net/2010/07/06/facebook_html5.html) - [@mattaustin](https://twitter.com/mattaustin)
 6. [Stored XSS at Parse](https://dr4cun0.com/blog/stored-xss-at-parse/) - [Dhaval](https://twitter.com/17haval)
 7. [XSS in OAuth flow of Paypal](https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/) - [Dhaval](https://twitter.com/17haval)
-
+8. [Reflected XSS through AngularJS sandbox bypass...McDonald](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users) - [@finnwea](https://twitter.com/finnwea)
 ###### Cross Site Request Frogery - CSRF
 
 ###### Server Side Request Frogery - SSRF
 
-1. [SSRF at Update Subscription Menu](https://dr4cun0.com/blog/ssrf-at-update-subscription-menu/) - [Dhaval](https://twitter.com/17haval)
+1. [SSRF at Facebook Update Subscription Menu](https://dr4cun0.com/blog/ssrf-at-update-subscription-menu/) - [Dhaval](https://twitter.com/17haval)
 
 ###### Application/Business Logic
 
