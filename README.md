@@ -23,6 +23,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 6. [Stored XSS at Parse](https://dr4cun0.com/blog/stored-xss-at-parse/) - [Dhaval](https://twitter.com/17haval)
 7. [XSS in OAuth flow of Paypal](https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/) - [Dhaval](https://twitter.com/17haval)
 8. [Reflected XSS through AngularJS sandbox bypass...McDonald](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users) - [@finnwea](https://twitter.com/finnwea)
+
 ###### Cross Site Request Frogery - CSRF
 
 ###### Server Side Request Frogery - SSRF
