@@ -54,6 +54,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### Misc
 
 1.[Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
+2. [Helmet JS](https://helmetjs.github.io/docs/)
 
 #### Credits
 
