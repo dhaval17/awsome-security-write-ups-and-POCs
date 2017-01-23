@@ -36,7 +36,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### InDirect Object Reference - IDOR
 
-1.[Facebook Vulnerability - Delete Any Video on Facebook](http://danmelamed.blogspot.in/2017/01/facebook-vulnerability-delete-any-video.html?m=1)-[Dan Melamed]
+1. [Facebook Vulnerability - Delete Any Video on Facebook](http://danmelamed.blogspot.in/2017/01/facebook-vulnerability-delete-any-video.html) - [Dan Melamed](https://twitter.com/danmelamed)
 
 ###### Code Execution
 
