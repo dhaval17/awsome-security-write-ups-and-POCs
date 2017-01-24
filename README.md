@@ -41,6 +41,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### Code Execution
 
 1. [Facebook’s ImageTragick Story](http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html) - [@4lemon](https://twitter.com/4lemon)
+2. [WD My Cloud Mirror 2.11.153 RCE and Authentication Bypass](https://security.szurek.pl/wd-my-cloud-mirror-211153-rce-and-authentication-bypass.html) - [Kacper Szurek](https://twitter.com/kacperszurek)
 
 ###### Reverse Engineering
 
