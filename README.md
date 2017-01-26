@@ -1,4 +1,4 @@
-## Hacking Resource
+## Awesome Writeups [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ####  Not mine not yours, It's everyone's. Feel free to contribute.
 
 ![hacking-resource](https://github.com/dhaval17/hacking-resources/raw/assets/images/hacker.jpg)
