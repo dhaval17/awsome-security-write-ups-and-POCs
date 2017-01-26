@@ -4,7 +4,7 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 #### How ?
 
-1. Senda pull request
+1. Send a pull request
 2. Create an [Issue](https://github.com/dhaval17/awesome-writeups/issues/new)
 
 That's about it I guess
