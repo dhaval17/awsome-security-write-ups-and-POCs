@@ -1,4 +1,6 @@
 ## Awesome Writeups [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+> A curated list of delightful writeups and POCs
+
 ####  Not mine not yours, It's everyone's. Feel free to contribute.
 
 ![hacking-resource](https://github.com/dhaval17/hacking-resources/raw/assets/images/hacker.jpg)
@@ -43,6 +45,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Facebook’s ImageTragick Story](http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html) - [@4lemon](https://twitter.com/4lemon)
 2. [WD My Cloud Mirror 2.11.153 RCE and Authentication Bypass](https://security.szurek.pl/wd-my-cloud-mirror-211153-rce-and-authentication-bypass.html) - [Kacper Szurek](https://twitter.com/kacperszurek)
 3. [0day writeup: XXE in uber.com](https://httpsonly.blogspot.in/2017/01/0day-writeup-xxe-in-ubercom.html) - [Vladimir Ivanov](https://twitter.com/httpsonly)
+
 ###### Reverse Engineering
 
 ###### DNS Related
@@ -52,9 +55,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Research Papers
 
-###### Tools
-
-###### Misc
+###### Extras
 
 1. [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
 2. [Helmet JS](https://helmetjs.github.io/docs/)
@@ -64,6 +65,3 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Categories 
 - [LtR101: Web Application Testing Methodologies](https://blog.zsec.uk/ltr101-methodologies/) - [Andy](https://twitter.com/ZephrFish)
-
-###### Resources
-- -.-
