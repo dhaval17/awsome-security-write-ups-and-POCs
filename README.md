@@ -31,6 +31,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### Cross Site Request Frogery - CSRF
 
 1. [Messenger.com Site-Wide CSRF](https://whitton.io/articles/messenger-site-wide-csrf/) - [@fin1te](https://twitter.com/fin1te)
+2. [How I bypassed Facebook CSRF once again!](http://blog.darabi.me/2016/05/how-i-bypassed-facebook-csrf-in-2016.html) - [Pouya Darabi](https://twitter.com/Pouyadarabi)
 
 ###### Server Side Request Frogery - SSRF
 
