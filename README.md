@@ -60,7 +60,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Bruteforce
 
-1.[How I could have hacked all Facebook accounts](http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html) - [Anand Prakash](https://twitter.com/sehacure)
+1. [How I could have hacked all Facebook accounts](http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html) - [Anand Prakash](https://twitter.com/sehacure)
 
 ###### Research Papers
 
@@ -71,6 +71,8 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 3. [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - [Patrick Toomey](https://twitter.com/patricktoomey)
 
 #### Credits
+
+###### Miscellaneous
 
 ###### Categories 
 - [LtR101: Web Application Testing Methodologies](https://blog.zsec.uk/ltr101-methodologies/) - [Andy](https://twitter.com/ZephrFish)
