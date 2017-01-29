@@ -58,6 +58,10 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
 2. [That (.) Which Made The Difference](https://dr4cun0.com/blog/that-which-made-the-difference/) - [Dhaval](https://twitter.com/17haval)
 
+###### Bruteforce
+
+1.[How I could have hacked all Facebook accounts](http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html) - [Anand Prakash](https://twitter.com/sehacure)
+
 ###### Research Papers
 
 ###### Extras
