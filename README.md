@@ -26,7 +26,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 7. [XSS in OAuth flow of Paypal](https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/) - [Dhaval](https://twitter.com/17haval)
 8. [Reflected XSS through AngularJS sandbox bypass...McDonald](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users) - [@finnwea](https://twitter.com/finnwea)
 9. [Coming across an XSS vulnerability at Google sites is wrong I expected](http://nootropic.me/blog/en/blog/2016/09/20/%E3%82%84%E3%81%AF%E3%82%8A%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89%E3%81%9F%E3%81%BE%E3%81%9F%E3%81%BEgoogle/) - [ ikuta_T
-10. [Hacking Google for fun and profit](https://introvertmac.wordpress.com/2016/07/30/hacking-google-for-fun-and-profit/#more-327)[Manish Bhattacharya](https://twitter.com/UMeNMactech)
+10. [Hacking Google for fun and profit](https://introvertmac.wordpress.com/2016/07/30/hacking-google-for-fun-and-profit/#more-327) - [Manish Bhattacharya](https://twitter.com/UMeNMactech)
 
 ###### Cross Site Request Frogery - CSRF
 
@@ -38,8 +38,8 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Application/Business Logic
 
-1. [Facebook Simple Technical Bug worth 7500$](http://ashishpadelkar.com/index.php/2015/09/23/facebook-simple-technical-bug-worth-7500/)[Ashish Padelkar](https://twitter.com/ashish_padelkar)
-2. [How I Could Steal Money from Instagram, Google and Microsoft](https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/)[Arne Swinnen](https://twitter.com/arneswinnen)
+1. [Facebook Simple Technical Bug worth 7500$](http://ashishpadelkar.com/index.php/2015/09/23/facebook-simple-technical-bug-worth-7500/) - [Ashish Padelkar](https://twitter.com/ashish_padelkar)
+2. [How I Could Steal Money from Instagram, Google and Microsoft](https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/) - [Arne Swinnen](https://twitter.com/arneswinnen)
 
 ###### SQL Injection - SQLi
 
@@ -67,13 +67,13 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [How I could have hacked all Facebook accounts](http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html) - [Anand Prakash](https://twitter.com/sehacure)
 
 ###### Subdomain Takeover
-1. [Hijacking tons of Instapage expired users Domains & Subdomains](http://www.geekboy.ninja/blog/tag/hackerone-subdomain-takeover)[@emgeekboy](https://twitter.com/emgeekboy)
+1. [Hijacking tons of Instapage expired users Domains & Subdomains](http://www.geekboy.ninja/blog/tag/hackerone-subdomain-takeover) - [@emgeekboy](https://twitter.com/emgeekboy)
 
 ###### Open URL Redirection
 
-1. [How I discovered a 1000$ open redirect in Facebook](http://yassineaboukir.com/blog/how-i-discovered-a-1000-open-redirect-in-facebook/)[Yassine Aboukir](https://twitter.com/Yassineaboukir)
-2. [Facebook Whitehat Vulnerability for 2013: Open Redirection in Facebook Mobile](https://prakharprasad.com/facebook-whitehat-vulnerability-for-2013-open-redirection-in-facebook-mobile/)[Prakhar Prasad](https://twitter.com/prakharprasad)
-3. [Dropbox Team Website Open Redirection](https://prakharprasad.com/dropbox-team-website-open-redirection/)[Prakhar Prasad](https://twitter.com/prakharprasad)
+1. [How I discovered a 1000$ open redirect in Facebook](http://yassineaboukir.com/blog/how-i-discovered-a-1000-open-redirect-in-facebook/) - [Yassine Aboukir](https://twitter.com/Yassineaboukir)
+2. [Facebook Whitehat Vulnerability for 2013: Open Redirection in Facebook Mobile](https://prakharprasad.com/facebook-whitehat-vulnerability-for-2013-open-redirection-in-facebook-mobile/) - [Prakhar Prasad](https://twitter.com/prakharprasad)
+3. [Dropbox Team Website Open Redirection](https://prakharprasad.com/dropbox-team-website-open-redirection/) - [Prakhar Prasad](https://twitter.com/prakharprasad)
 
 ###### Research Papers
 
