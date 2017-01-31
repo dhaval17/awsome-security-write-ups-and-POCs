@@ -58,6 +58,9 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Reverse Engineering
 
+1. [Unfolding obfuscated code with Reven (part 1)](http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part1.html)
+2. [Unfolding obfuscated code with Reven (part 2)](http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part2.html)
+
 ###### DNS Related
 
 1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
