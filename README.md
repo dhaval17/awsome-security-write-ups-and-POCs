@@ -44,6 +44,8 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### SQL Injection - SQLi
 
+1. [Popping a shell on the Oculus developer portal](https://bitquark.co.uk/blog/2014/08/31/popping_a_shell_on_the_oculus_developer_portal) - [Bitquark](https://twitter.com/Bitquark)
+
 ###### InDirect Object Reference - IDOR
 
 1. [Facebook Vulnerability - Delete Any Video on Facebook](http://danmelamed.blogspot.in/2017/01/facebook-vulnerability-delete-any-video.html) - [Dan Melamed](https://twitter.com/danmelamed)
