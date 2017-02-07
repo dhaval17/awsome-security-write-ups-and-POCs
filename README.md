@@ -74,6 +74,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Subdomain Takeover
 1. [Hijacking tons of Instapage expired users Domains & Subdomains](http://www.geekboy.ninja/blog/tag/hackerone-subdomain-takeover) - [@emgeekboy](https://twitter.com/emgeekboy)
+2. [The story of EV-SSL, AWS and trailing dot domains](https://labs.detectify.com/2016/10/05/the-story-of-ev-ssl-aws-and-trailing-dot-domains/) - [Detectify](https://twitter.com/detectify)
 
 ###### Open URL Redirection
 
@@ -83,6 +84,10 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Research Papers
 
+###### Miscellaneous
+
+1. [Combining host header injection and lax host parsing serving malicious data](https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/) - [Detectify](https://twitter.com/detectify)
+
 ###### Extras
 
 1. [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
@@ -90,8 +95,6 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 3. [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - [Patrick Toomey](https://twitter.com/patricktoomey)
 
 #### Credits
-
-###### Miscellaneous
 
 ###### Categories 
 - [LtR101: Web Application Testing Methodologies](https://blog.zsec.uk/ltr101-methodologies/) - [Andy](https://twitter.com/ZephrFish)
