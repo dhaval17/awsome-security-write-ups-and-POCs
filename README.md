@@ -87,6 +87,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### Miscellaneous
 
 1. [Combining host header injection and lax host parsing serving malicious data](https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/) - [Detectify](https://twitter.com/detectify)
+2. [Compromising Apache Tomcat via JMX access](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/compromising-apache-tomcat-via-jmx-access/)
 
 ###### Extras
 
