@@ -9,6 +9,22 @@
 #### Submitting new resource :
 
 Please read the [Contribution Doc](/contribution.md)
+#### Content
+
+1. [Cross Site Scripting - XSS](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#cross-site-scripting---xss)
+2. [Cross Site Request Frogery - CSRF](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#cross-site-request-frogery---csrf)
+3. [Server Side Request Frogery - SSRF](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#server-side-request-frogery---ssrf)
+4. [Application/Business Logic](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#applicationbusiness-logic)
+5. [SQL Injection - SQLi](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#sql-injection---sqli)
+6. [InDirect Object Reference - IDOR](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#indirect-object-reference---idor)
+7. [Code Execution](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#code-execution)
+8. [Reverse Engineering](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#reverse-engineering)
+9. [DNS Related](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#dns-related)
+10. [Brute-force](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#brute-force)
+11. [Subdomain Takeover](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#subdomain-takeover)
+12. [Open URL Redirection](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#open-url-redirection)
+13. [Research Papers](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers)
+14. [Miscellaneous](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous)
 
 #### Resource
 
@@ -68,7 +84,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
 2. [That (.) Which Made The Difference](https://dr4cun0.com/blog/that-which-made-the-difference/) - [Dhaval](https://twitter.com/17haval)
 
-###### Bruteforce
+###### Brute-force
 
 1. [How I could have hacked all Facebook accounts](http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html) - [Anand Prakash](https://twitter.com/sehacure)
 
