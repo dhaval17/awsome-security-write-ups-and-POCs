@@ -43,6 +43,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 8. [Reflected XSS through AngularJS sandbox bypass...McDonald](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users) - [@finnwea](https://twitter.com/finnwea)
 9. [Coming across an XSS vulnerability at Google sites is wrong I expected](http://nootropic.me/blog/en/blog/2016/09/20/%E3%82%84%E3%81%AF%E3%82%8A%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89%E3%81%9F%E3%81%BE%E3%81%9F%E3%81%BEgoogle/) - [ikuta_T](#)
 10. [Hacking Google for fun and profit](https://introvertmac.wordpress.com/2016/07/30/hacking-google-for-fun-and-profit/#more-327) - [Manish Bhattacharya](https://twitter.com/UMeNMactech)
+11. [Unpatched (0day) jQuery Mobile XSS](http://sirdarckcat.blogspot.in/2017/02/unpatched-0day-jquery-mobile-xss.html) - [EDUARDO VELA](https://twitter.com/sirdarckcat)
 
 ###### Cross Site Request Frogery - CSRF
 
