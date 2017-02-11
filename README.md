@@ -106,7 +106,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Combining host header injection and lax host parsing serving malicious data](https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/) - [Detectify](https://twitter.com/detectify)
 2. [Compromising Apache Tomcat via JMX access](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/compromising-apache-tomcat-via-jmx-access/) - [NCC Group UK](#)
 3. [Facebook's Bug - Unauthorized access to credit/prepaid card details](https://pranavhivarekar.in/2017/02/11/facebooks-bug-unauthorized-access-to-credit-card-details-limited-of-any-user/) - [Pranav Hivarekar](https://twitter.com/HivarekarPranav)
-
+4. [Constructing an XSS vector, using no letters](https://inventropy.us/blog/constructing-an-xss-vector-using-no-letters) - [Charles Neill](https://twitter.com/ccneill)
 ###### Extras
 
 1. [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
