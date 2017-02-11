@@ -84,6 +84,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 1. [Hijacking Broken Nameservers to Compromise Your Target](https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/) - [@IAmMandatory](https://twitter.com/IAmMandatory)
 2. [That (.) Which Made The Difference](https://dr4cun0.com/blog/that-which-made-the-difference/) - [Dhaval](https://twitter.com/17haval)
+3. [Domain Fronting Via Cloudfront Alternate Domains](https://www.mdsec.co.uk/2017/02/domain-fronting-via-cloudfront-alternate-domains/) - [Vincent Yiu](https://twitter.com/vysecurity)
 
 ###### Brute-force
 
@@ -107,6 +108,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 2. [Compromising Apache Tomcat via JMX access](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/compromising-apache-tomcat-via-jmx-access/) - [NCC Group UK](#)
 3. [Facebook's Bug - Unauthorized access to credit/prepaid card details](https://pranavhivarekar.in/2017/02/11/facebooks-bug-unauthorized-access-to-credit-card-details-limited-of-any-user/) - [Pranav Hivarekar](https://twitter.com/HivarekarPranav)
 4. [Constructing an XSS vector, using no letters](https://inventropy.us/blog/constructing-an-xss-vector-using-no-letters) - [Charles Neill](https://twitter.com/ccneill)
+
 ###### Extras
 
 1. [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
