@@ -113,6 +113,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 2. [Compromising Apache Tomcat via JMX access](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/compromising-apache-tomcat-via-jmx-access/) - [NCC Group UK](#)
 3. [Facebook's Bug - Unauthorized access to credit/prepaid card details](https://pranavhivarekar.in/2017/02/11/facebooks-bug-unauthorized-access-to-credit-card-details-limited-of-any-user/) - [Pranav Hivarekar](https://twitter.com/HivarekarPranav)
 4. [Constructing an XSS vector, using no letters](https://inventropy.us/blog/constructing-an-xss-vector-using-no-letters) - [Charles Neill](https://twitter.com/ccneill)
+5. [Order Facebook Friends by Facebook Recruiting Technical Coefficient](http://philippeharewood.com/order-facebook-friends-by-facebook-recruiting-technical-coefficient/) - [Philippe Harewood](https://twitter.com/phwd)
 
 ###### Extras
 
