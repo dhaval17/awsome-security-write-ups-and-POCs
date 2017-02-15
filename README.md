@@ -46,7 +46,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 11. [Unpatched (0day) jQuery Mobile XSS](http://sirdarckcat.blogspot.in/2017/02/unpatched-0day-jquery-mobile-xss.html) - [EDUARDO VELA](https://twitter.com/sirdarckcat)
 12. [Reflected XSS in Etsy](http://hmgmakarovich.blogspot.in/2017_01_01_archive.html) - [Harry M Gertos](http://hmgmakarovich.blogspot.in)
 13. [Sleeping stored Google XSS Awakens a $5000 Bounty] (https://blog.it-securityguard.com/bugbounty-sleeping-stored-google-xss-awakens-a-5000-bounty/) - [Patrik Fehrenbach ] (https://twitter.com/ITSecurityguard)
-14. [admin.google.com Reflected Cross-Site Scripting (XSS)] (https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [BRETT BUERHAUS](https://buer.haus/)
+14. [admin.google.com Reflected Cross-Site Scripting (XSS)] (https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [Brett Buerhaus](https://twitter.com/bbuerhaus)
 
 ###### Cross Site Request Frogery - CSRF
 
@@ -77,7 +77,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Facebook’s ImageTragick Story](http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html) - [@4lemon](https://twitter.com/4lemon)
 2. [WD My Cloud Mirror 2.11.153 RCE and Authentication Bypass](https://security.szurek.pl/wd-my-cloud-mirror-211153-rce-and-authentication-bypass.html) - [Kacper Szurek](https://twitter.com/kacperszurek)
 3. [0day writeup: XXE in uber.com](https://httpsonly.blogspot.in/2017/01/0day-writeup-xxe-in-ubercom.html) - [Vladimir Ivanov](https://twitter.com/httpsonly)
-4. [Command injection which got me "6000$" from #Google](http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html) - [S. Venkatesh](http://www.pranav-venkat.com)
+4. [Command injection which got me "6000$" from #Google](http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html) - [S Venkatesh](http://www.pranav-venkat.com)
 
 
 ###### Reverse Engineering
