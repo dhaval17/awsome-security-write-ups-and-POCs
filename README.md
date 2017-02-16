@@ -47,6 +47,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 12. [Reflected XSS in Etsy](http://hmgmakarovich.blogspot.in/2017_01_01_archive.html) - [Harry M Gertos](http://hmgmakarovich.blogspot.in)
 13. [Sleeping stored Google XSS Awakens a $5000 Bounty] (https://blog.it-securityguard.com/bugbounty-sleeping-stored-google-xss-awakens-a-5000-bounty/) - [Patrik Fehrenbach ] (https://twitter.com/ITSecurityguard)
 14. [admin.google.com Reflected Cross-Site Scripting (XSS)] (https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [Brett Buerhaus](https://twitter.com/bbuerhaus)
+15. [Stored XSS at exchange.onavo.com](https://dr4cun0.com/blog/stored-xss-at-exchange-onavo-com/) - [Dhaval](https://twitter.com/17haval)
 
 ###### Cross Site Request Frogery - CSRF
 
