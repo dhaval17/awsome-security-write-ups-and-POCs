@@ -116,6 +116,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 4. [Constructing an XSS vector, using no letters](https://inventropy.us/blog/constructing-an-xss-vector-using-no-letters) - [Charles Neill](https://twitter.com/ccneill)
 5. [Order Facebook Friends by Facebook Recruiting Technical Coefficient](http://philippeharewood.com/order-facebook-friends-by-facebook-recruiting-technical-coefficient/) - [Philippe Harewood](https://twitter.com/phwd)
 6. [Web Cache Deception Attack](http://omergil.blogspot.in/2017/02/web-cache-deception-attack.html) - [Omer Gil](https://twitter.com/omer_gil)
+7. [Hacking Slack using postMessage and WebSocket](https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/) - [Frans Rosén](https://twitter.com/fransrosen)
 
 ###### Extras
 
