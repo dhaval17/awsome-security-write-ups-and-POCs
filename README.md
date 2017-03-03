@@ -59,6 +59,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [SSRF at Facebook Update Subscription Menu](https://dr4cun0.com/blog/ssrf-at-update-subscription-menu/) - [Dhaval](https://twitter.com/17haval)
 2. [Ok Google, Give Me All Your Internal DNS Information](https://www.rcesecurity.com/2017/03/ok-google-give-me-all-your-internal-dns-information/) - [Julien Ahrens
 ](https://twitter.com/mrtuxracer)
+3. [How anyone could have used Uber to ride for free! ](http://www.anandpraka.sh/2017/03/how-anyone-could-have-used-uber-to-ride.html) - 
 
 ###### Application/Business Logic
 
