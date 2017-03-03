@@ -74,7 +74,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 1. [Facebook Vulnerability - Delete Any Video on Facebook](http://danmelamed.blogspot.in/2017/01/facebook-vulnerability-delete-any-video.html) - [Dan Melamed](https://twitter.com/danmelamed)
 2. [Confirming new email/mobile number bug in Facebook](https://youtu.be/4euBQCMxlE8) - [Lokesh Kumar](#)
-3. [How I hacked 62.5 million Zomato Users](http://www.anandpraka.sh/2015/06/how-i-hacked-zomatocom-to-see-data-of.html) - [Anand Prakash](https://twitter.com/sehacure)
+3. [How I hacked 62.5 million Zomato Users](http://www.anandpraka.sh/2015/06/how-i-hacked-zomatocom-to-see-data-of.html) - [Anand Prakash](https://twitter.com/sehacure) - [Anand Prakash](https://twitter.com/sehacure)
 
 ###### Code Execution
 
