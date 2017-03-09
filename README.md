@@ -49,7 +49,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 14. [admin.google.com Reflected Cross-Site Scripting (XSS)] (https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [Brett Buerhaus](https://twitter.com/bbuerhaus)
 15. [Stored XSS at exchange.onavo.com](https://dr4cun0.com/blog/stored-xss-at-exchange-onavo-com/) - [Dhaval](https://twitter.com/17haval)
 16. [Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF](https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/) - [Brett Buerhaus](https://twitter.com/bbuerhaus)
-17. [How I found a $5,000 Google Maps XSS](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.wylc2m1rs) - [Marin Moulinier](#)
+17. [How I found a $5,000 Google Maps XSS](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff) - [Marin Moulinier](#)
 
 ###### Cross Site Request Frogery - CSRF
 
