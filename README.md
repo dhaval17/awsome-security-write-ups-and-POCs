@@ -110,6 +110,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [How I discovered a 1000$ open redirect in Facebook](http://yassineaboukir.com/blog/how-i-discovered-a-1000-open-redirect-in-facebook/) - [Yassine Aboukir](https://twitter.com/Yassineaboukir)
 2. [Facebook Whitehat Vulnerability for 2013: Open Redirection in Facebook Mobile](https://prakharprasad.com/facebook-whitehat-vulnerability-for-2013-open-redirection-in-facebook-mobile/) - [Prakhar Prasad](https://twitter.com/prakharprasad)
 3. [Dropbox Team Website Open Redirection](https://prakharprasad.com/dropbox-team-website-open-redirection/) - [Prakhar Prasad](https://twitter.com/prakharprasad)
+4. [Bypassing SoundCloud’s protection for open redirections](https://strukt93.wordpress.com/2017/03/09/bypassing-soundclouds-protection-for-open-redirections/) - [strukt93](#)
 
 ###### Research Papers
 
