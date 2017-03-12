@@ -71,6 +71,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### SQL Injection - SQLi
 
 1. [Popping a shell on the Oculus developer portal](https://bitquark.co.uk/blog/2014/08/31/popping_a_shell_on_the_oculus_developer_portal) - [Bitquark](https://twitter.com/Bitquark)
+2. [SQLi + XXE + File path traversal Deutsche Telekom](https://www.ibrahim-elsayed.com/?p=150) - [Ibrahim M. El-Sayed](https://twitter.com/ibrahim_mosaad)
 
 ###### InDirect Object Reference - IDOR
 
