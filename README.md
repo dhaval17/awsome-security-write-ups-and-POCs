@@ -72,6 +72,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 1. [Popping a shell on the Oculus developer portal](https://bitquark.co.uk/blog/2014/08/31/popping_a_shell_on_the_oculus_developer_portal) - [Bitquark](https://twitter.com/Bitquark)
 2. [SQLi + XXE + File path traversal Deutsche Telekom](https://www.ibrahim-elsayed.com/?p=150) - [Ibrahim M. El-Sayed](https://twitter.com/ibrahim_mosaad)
+3. [GitHub Enterprise SQL Injection](http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html) - [Orange Tsai](#)
 
 ###### InDirect Object Reference - IDOR
 
