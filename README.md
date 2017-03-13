@@ -86,7 +86,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 2. [WD My Cloud Mirror 2.11.153 RCE and Authentication Bypass](https://security.szurek.pl/wd-my-cloud-mirror-211153-rce-and-authentication-bypass.html) - [Kacper Szurek](https://twitter.com/kacperszurek)
 3. [0day writeup: XXE in uber.com](https://httpsonly.blogspot.in/2017/01/0day-writeup-xxe-in-ubercom.html) - [Vladimir Ivanov](https://twitter.com/httpsonly)
 4. [Command injection which got me "6000$" from #Google](http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html) - [S Venkatesh](http://www.pranav-venkat.com)
-
+5. [Airbnb – Ruby on Rails String Interpolation led to Remote Code Execution](http://buer.haus/2017/03/13/airbnb-ruby-on-rails-string-interpolation-led-to-remote-code-execution/) - [Ben Sadeghipour Brett Buerhaus](#)
 
 ###### Reverse Engineering
 
