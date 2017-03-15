@@ -131,6 +131,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 1. [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
 2. [Helmet JS](https://helmetjs.github.io/docs/)
 3. [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - [Patrick Toomey](https://twitter.com/patricktoomey)
+4. [CORS — a guided tour](https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739#.bqddn2c22) - [Martin Splitt](#)
 
 #### Credits
 
