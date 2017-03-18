@@ -93,6 +93,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 1. [Unfolding obfuscated code with Reven (part 1)](http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part1.html)
 2. [Unfolding obfuscated code with Reven (part 2)](http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part2.html)
+3. [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - [Luke Viruswalker](#)
 
 ###### DNS Related
 
