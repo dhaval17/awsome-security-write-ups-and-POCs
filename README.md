@@ -88,6 +88,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 4. [Command injection which got me "6000$" from #Google](http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html) - [S Venkatesh](http://www.pranav-venkat.com)
 5. [Airbnb – Ruby on Rails String Interpolation led to Remote Code Execution](http://buer.haus/2017/03/13/airbnb-ruby-on-rails-string-interpolation-led-to-remote-code-execution/) - [Ben Sadeghipour Brett Buerhaus](#)
 6.[GitHub Enterprise Remote Code Execution](http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html) - [Markus Fenske](#)
+7. [Escaping from Restricted Shell and Gaining Root Access](https://pentest.blog/unexpected-journey-4-escaping-from-restricted-shell-and-gaining-root-access-to-solarwinds-log-event-manager-siem-product/) - [Mehmet Ince](#)
 
 ###### Reverse Engineering
 
