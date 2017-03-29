@@ -130,6 +130,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 7. [Hacking Slack using postMessage and WebSocket](https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/) - [Frans Rosén](https://twitter.com/fransrosen)
 8. [Stealing Messenger.com Login Nonces](https://stephensclafani.com/2017/03/21/stealing-messenger-com-login-nonces/) - [
 Stephen Sclafani](https://twitter.com/Stephen)
+9. [Escaping a Python sandbox with a memory corruption bug](https://medium.com/@gabecpike/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5) - [Gabe Pike](#)
 
 ###### Extras
 
