@@ -34,11 +34,11 @@ Please read the [Contribution Doc](/contribution.md)
 
 1. [
 XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/accounts.google.com-utf-32-xss.html) - [@kinugawamasato](https://twitter.com/kinugawamasato)
-2. [admin.google.com Reflected Cross-Site Scripting (XSS)](https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [@bbuerhaus](https://twitter.com/bbuerhaus)
+2. [admin.google.com Reflected Cross-Site Scripting (XSS)](https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/) - [@bbuerhaus](https://twitter.com/bbuerhaus) - Vulnerable `continue` parameter, `https://admin.google.com/mrzioto.com/ServiceNotAllowed?service=grandcentral&continue=javascript:alert(document.cookie);//`
 3. [XSS-es in Google Caja](http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html) - [@SecurityMB](https://twitter.com/SecurityMB)
-4. [Content Types and XSS: Facebook Studio](https://whitton.io/articles/content-types-and-xss-facebook-studio/) - [@fin1te](https://twitter.com/fin1te)
+4. [Content Types and XSS: Facebook Studio](https://whitton.io/articles/content-types-and-xss-facebook-studio/) - [@fin1te](https://twitter.com/fin1te) - Client-side validation for content-type, Which then enables to pass `HTML/Javascript` to execute XSS
 5. [Facebook XSS via Cross-Origin Resource Sharing](http://maustin.net/2010/07/06/facebook_html5.html) - [@mattaustin](https://twitter.com/mattaustin)
-6. [Stored XSS at Parse](https://dr4cun0.com/blog/stored-xss-at-parse/) - [Dhaval](https://twitter.com/17haval)
+6. [Stored XSS at Parse](https://dr4cun0.com/blog/stored-xss-at-parse/) - [Dhaval](https://twitter.com/17haval) - No URL validation, Thus allowing `javascript:alert(1)` in URL parameter leading to XSS
 7. [XSS in OAuth flow of Paypal](https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/) - [Dhaval](https://twitter.com/17haval)
 8. [Reflected XSS through AngularJS sandbox bypass...McDonald](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users) - [@finnwea](https://twitter.com/finnwea)
 9. [Coming across an XSS vulnerability at Google sites is wrong I expected](http://nootropic.me/blog/en/blog/2016/09/20/%E3%82%84%E3%81%AF%E3%82%8A%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89%E3%81%9F%E3%81%BE%E3%81%9F%E3%81%BEgoogle/) - [ikuta_T](#)
