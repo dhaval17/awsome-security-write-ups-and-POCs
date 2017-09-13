@@ -1,4 +1,4 @@
-## Awesome Security Write-Ups and POCs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+## Awesome Security Write-Ups and POCs
 > A curated list of delightful writeups and POCs
 
 ####  Not mine not yours, It's everyone's. Feel free to contribute.
