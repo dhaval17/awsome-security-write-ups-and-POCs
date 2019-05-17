@@ -51,6 +51,10 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 16. [Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF](https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/) - [Brett Buerhaus](https://twitter.com/bbuerhaus)
 17. [How I found a $5,000 Google Maps XSS](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff) - [Marin Moulinier](#)
 
+###### Cross Origin Resource Sharing Exploitation
+
+1. [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/@sandh0t/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397) - [Sandh0t](#)
+
 ###### Cross Site Request Frogery - CSRF
 
 1. [Messenger.com Site-Wide CSRF](https://whitton.io/articles/messenger-site-wide-csrf/) - [@fin1te](https://twitter.com/fin1te)
