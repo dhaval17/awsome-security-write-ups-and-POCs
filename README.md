@@ -123,6 +123,8 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 
 ###### Research Papers
 
+1. [The Complete Guide to CORS (In)Security](https://www.bedefended.com/papers/cors-security-guide) - [Davide Danelon](https://twitter.com/@TwiceDi)
+
 ###### Miscellaneous
 
 1. [Combining host header injection and lax host parsing serving malicious data](https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/) - [Detectify](https://twitter.com/detectify)
