@@ -93,6 +93,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 5. [Airbnb – Ruby on Rails String Interpolation led to Remote Code Execution](http://buer.haus/2017/03/13/airbnb-ruby-on-rails-string-interpolation-led-to-remote-code-execution/) - [Ben Sadeghipour Brett Buerhaus](#)
 6.[GitHub Enterprise Remote Code Execution](http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html) - [Markus Fenske](#)
 7. [Escaping from Restricted Shell and Gaining Root Access](https://pentest.blog/unexpected-journey-4-escaping-from-restricted-shell-and-gaining-root-access-to-solarwinds-log-event-manager-siem-product/) - [Mehmet Ince](#)
+8. [GitHub Enterprise Remote Code Execution](https://www.exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html)
 
 ###### Reverse Engineering
 
