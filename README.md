@@ -138,6 +138,7 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 8. [Stealing Messenger.com Login Nonces](https://stephensclafani.com/2017/03/21/stealing-messenger-com-login-nonces/) - [
 Stephen Sclafani](https://twitter.com/Stephen)
 9. [Escaping a Python sandbox with a memory corruption bug](https://medium.com/@gabecpike/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5) - [Gabe Pike](#)
+10. [Uploading web.config for Fun and Profit 2](https://soroush.secproject.com/blog/2019/08/uploading-web-config-for-fun-and-profit-2/) - [Soroush Dalili](https://twitter.com/irsdl)
 
 ###### Extras
 
