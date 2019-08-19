@@ -151,3 +151,7 @@ Stephen Sclafani](https://twitter.com/Stephen)
 
 ###### Categories 
 - [LtR101: Web Application Testing Methodologies](https://blog.zsec.uk/ltr101-methodologies/) - [Andy](https://twitter.com/ZephrFish)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/dhaval17/awsome-security-write-ups-and-POCs.svg)](https://starchart.cc/dhaval17/awsome-security-write-ups-and-POCs)
