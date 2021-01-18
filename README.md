@@ -24,8 +24,9 @@ Please read the [Contribution Doc](/contribution.md)
 11. [Subdomain Takeover](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#subdomain-takeover)
 12. [Open URL Redirection](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#open-url-redirection)
 13. [XML Attacks](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#xml-attacks)
-14. [Research Papers](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers)
-15. [Miscellaneous](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous)
+14. [HTTP Request Smuggling Desync Attack](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#http-request-smuggling-desync-attack)
+15. [Research Papers](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers)
+16. [Miscellaneous](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous)
 
 #### Resource
 
@@ -126,6 +127,10 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 ###### XML Attacks
 
 1. [eXtensible Markup Language Attacks](https://raviramesh.info/xml-attacks.html) - [Ravi Paghdal](https://twitter.com/_raviramesh)
+
+###### HTTP Request Smuggling Desync Attack
+
+1. [HTTP Request Smuggling Desync Attack](https://github.com/nachiketrathod/HTTP.Request.Smuggling.Desync.Attack)
 
 ###### Research Papers
 
