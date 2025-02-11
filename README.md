@@ -23,8 +23,10 @@ Please read the [Contribution Doc](/contribution.md)
 10. [Brute-force](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#brute-force)
 11. [Subdomain Takeover](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#subdomain-takeover)
 12. [Open URL Redirection](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#open-url-redirection)
-13. [Research Papers](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers)
-14. [Miscellaneous](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous)
+13. [XML Attacks](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#xml-attacks)
+14. [HTTP Request Smuggling Desync Attack](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#http-request-smuggling-desync-attack)
+15. [Research Papers](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers)
+16. [Miscellaneous](https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous)
 
 #### Resource
 
@@ -122,6 +124,14 @@ XSS that existed at accounts.google.com](http://masatokinugawa.l0.cm/2013/06/acc
 3. [Dropbox Team Website Open Redirection](https://prakharprasad.com/dropbox-team-website-open-redirection/) - [Prakhar Prasad](https://twitter.com/prakharprasad)
 4. [Bypassing SoundCloud’s protection for open redirections](https://strukt93.wordpress.com/2017/03/09/bypassing-soundclouds-protection-for-open-redirections/) - [strukt93](#)
 
+###### XML Attacks
+
+1. [eXtensible Markup Language Attacks](https://raviramesh.info/xml-attacks.html) - [Ravi Paghdal](https://twitter.com/_raviramesh)
+
+###### HTTP Request Smuggling Desync Attack
+
+1. [HTTP Request Smuggling Desync Attack](https://github.com/nachiketrathod/HTTP.Request.Smuggling.Desync.Attack)
+
 ###### Research Papers
 
 1. [The Complete Guide to CORS (In)Security](https://www.bedefended.com/papers/cors-security-guide) - [Davide Danelon](https://twitter.com/@TwiceDi)
@@ -146,6 +156,7 @@ Stephen Sclafani](https://twitter.com/Stephen)
 2. [Helmet JS](https://helmetjs.github.io/docs/)
 3. [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - [Patrick Toomey](https://twitter.com/patricktoomey)
 4. [CORS — a guided tour](https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739#.bqddn2c22) - [Martin Splitt](#)
+5. [Client Side Encryption Bypass](https://bhattsameer.github.io/2021/01/01/client-side-encryption-bypass-part-1.html) - [Sameer Bhatt](https://twitter.com/sameer_bhatt5)
 
 #### Credits
 
