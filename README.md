@@ -33,7 +33,8 @@ Please read the [Contribution Doc](/contribution.md)
 | 13 | XML Attacks | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#xml-attacks |
 | 14 | HTTP Request Smuggling / Desync | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#http-request-smuggling-desync-attack |
 | 15 | Research Papers | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#research-papers |
-| 16 | Miscellaneous | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous |
+| 16 | Hardware | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#hardware |
+| 17 | Miscellaneous | https://github.com/dhaval17/awesome-writeups/blob/master/README.md#miscellaneous |
 
 ---
 
@@ -50,6 +51,7 @@ Please read the [Contribution Doc](/contribution.md)
 | Code Execution | RCE, command injection and sandbox escapes |
 | Reverse Engineering | Binary reversing and obfuscated code analyses |
 | DNS / Subdomain Takeover | Domain misconfigurations and takeover writeups |
+| Hardware | Hardware reversing and embedded systems security |
 | Misc | Papers, tools, and extra HTTP/CORS/CSP resources |
 
 ---
@@ -162,6 +164,10 @@ The detailed list of blogs, writeups and POCs is preserved below. It contains ma
 ###### Research Papers
 
 1. [The Complete Guide to CORS (In)Security](https://www.bedefended.com/papers/cors-security-guide) - [Davide Danelon]
+
+###### Hardware
+
+1. [Unlocking the Silicon - Hardware Reversing an ATmega16A CTF Board](https://blog.dr4cun0.com/posts/unlocking-silicon-hardware-reversing-atmega16a-ctf/)
 
 ###### Miscellaneous
 
