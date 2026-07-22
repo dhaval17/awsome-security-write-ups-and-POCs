@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Security Write-Ups and POCs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f6f8fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .tagline {
+            font-style: italic;
+            margin: 20px 0;
+            color: #666;
+        }
+        
+        .contribute-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .contribute-section a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contribute-section a:hover {
+            text-decoration: underline;
+        }
+        
+        .toc {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .toc h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        td:first-child {
+            text-align: right;
+            color: #666;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .resources-section {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .resources-section h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .full-resources {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .full-resources h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .category {
+            margin-bottom: 30px;
+        }
+        
+        .category h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        ol {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+        
+        .hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Awesome Security Write-Ups and POCs</h1>
+            <p>A curated list of delightful writeups and POCs</p>
+            <p class="tagline">Not mine not yours — It's everyone's. Feel free to contribute.</p>
+        </header>
+        
+        <div class="contribute-section">
+            <h3>🤝 Contributing</h3>
+            <p>Please read the <a href="/contribution.md">Contribution Doc</a></p>
+        </div>
+        
+        <div class="toc">
+            <h2>📋 Table of Contents</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Category</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Cross Site Scripting (XSS)</td>
+                        <td><a href="#xss">XSS</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cross Site Request Forgery (CSRF)</td>
+                        <td><a href="#csrf">CSRF</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Server Side Request Forgery (SSRF)</td>
+                        <td><a href="#ssrf">SSRF</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Application / Business Logic</td>
+                        <td><a href="#business-logic">Business Logic</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SQL Injection (SQLi)</td>
+                        <td><a href="#sqli">SQLi</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Insecure Direct Object Reference (IDOR)</td>
+                        <td><a href="#idor">IDOR</a></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Code Execution</td>
+                        <td><a href="#code-execution">Code Execution</a></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Reverse Engineering</td>
+                        <td><a href="#reverse-engineering">Reverse Engineering</a></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>DNS Related</td>
+                        <td><a href="#dns">DNS Related</a></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Brute-force</td>
+                        <td><a href="#brute-force">Brute-force</a></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Subdomain Takeover</td>
+                        <td><a href="#subdomain-takeover">Subdomain Takeover</a></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Open URL Redirection</td>
+                        <td><a href="#open-redirect">Open Redirection</a></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>XML Attacks</td>
+                        <td><a href="#xml">XML Attacks</a></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>HTTP Request Smuggling / Desync</td>
+                        <td><a href="#http-smuggling">HTTP Smuggling</a></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Research Papers</td>
+                        <td><a href="#research-papers">Research Papers</a></td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Miscellaneous</td>
+                        <td><a href="#misc">Miscellaneous</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="resources-section">
+            <h2>📚 Resources (Summary)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>What you'll find</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XSS</td>
+                        <td>Reflected, Stored, DOM XSS writeups and case studies</td>
+                    </tr>
+                    <tr>
+                        <td>CSRF</td>
+                        <td>Site-wide CSRF reports and bypass techniques</td>
+                    </tr>
+                    <tr>
+                        <td>SSRF</td>
+                        <td>Server-side request forgery examples and escalation</td>
+                    </tr>
+                    <tr>
+                        <td>Business Logic</td>
+                        <td>Logical flaws, money theft, and business logic bypasses</td>
+                    </tr>
+                    <tr>
+                        <td>SQLi</td>
+                        <td>SQL injection writeups and exploitation examples</td>
+                    </tr>
+                    <tr>
+                        <td>IDOR</td>
+                        <td>Insecure object access and large-impact disclosures</td>
+                    </tr>
+                    <tr>
+                        <td>Code Execution</td>
+                        <td>RCE, command injection and sandbox escapes</td>
+                    </tr>
+                    <tr>
+                        <td>Reverse Engineering</td>
+                        <td>Binary reversing and obfuscated code analyses</td>
+                    </tr>
+                    <tr>
+                        <td>DNS / Subdomain Takeover</td>
+                        <td>Domain misconfigurations and takeover writeups</td>
+                    </tr>
+                    <tr>
+                        <td>Misc</td>
+                        <td>Papers, tools, and extra HTTP/CORS/CSP resources</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="full-resources">
+            <h2>📖 Full Resources</h2>
+            <p>The detailed list of blogs, writeups and POCs is preserved below. It contains many links grouped by category — use the table of contents above to jump to a category.</p>
+            
+            <div class="hr"></div>
+            
+            <div class="category">
+                <h3 id="xss">🔓 Cross Site Scripting - XSS</h3>
+                <ol>
+                    <li><a href="http://masatokinugawa.l0.cm/2013/06/accounts.google.com-utf-32-xss.html">XSS that existed at accounts.google.com</a> - <a href="https://twitter.com/kinugawamasato">@kinugawamasato</a></li>
+                    <li><a href="https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss/">admin.google.com Reflected Cross-Site Scripting (XSS)</a> - <a href="https://twitter.com/bbuerhaus">@bbuerhaus</a></li>
+                    <li><a href="http://blog.bentkowski.info/2016/07/xss-es-in-google-caja.html">XSS-es in Google Caja</a> - <a href="https://twitter.com/SecurityMB">@SecurityMB</a></li>
+                    <li><a href="https://whitton.io/articles/content-types-and-xss-facebook-studio/">Content Types and XSS: Facebook Studio</a> - <a href="https://twitter.com/fin1te">@fin1te</a></li>
+                    <li><a href="http://maustin.net/2010/07/06/facebook_html5.html">Facebook XSS via Cross-Origin Resource Sharing</a> - <a href="https://twitter.com/mattaustin">@mattaustin</a></li>
+                    <li><a href="https://dr4cun0.com/blog/stored-xss-at-parse/">Stored XSS at Parse</a> - <a href="https://twitter.com/17haval">Dhaval</a></li>
+                    <li><a href="https://dr4cun0.com/blog/xss_in_oauth_flow_of_paypal-2/">XSS in OAuth flow of Paypal</a> - <a href="https://twitter.com/17haval">Dhaval</a></li>
+                    <li><a href="https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users">Reflected XSS through AngularJS sandbox bypass at McDonald's</a> - <a href="https://twitter.com/finnwea">@finnwea</a></li>
+                    <li><a href="http://nootropic.me/blog/en/blog/2016/09/20/%E3%82%84%E3%81%AF%E3%82%8A%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AF%E3%83%BC%E3%82%82%E3%81%86/">Coming across an XSS vulnerability at Google sites</a></li>
+                    <li><a href="https://introvertmac.wordpress.com/2016/07/30/hacking-google-for-fun-and-profit/#more-327">Hacking Google for fun and profit</a> - <a href="https://twitter.com/UMeNMactech">Manish Bhattacharya</a></li>
+                    <li><a href="http://sirdarckcat.blogspot.in/2017/02/unpatched-0day-jquery-mobile-xss.html">Unpatched (0day) jQuery Mobile XSS</a> - <a href="https://twitter.com/sirdarckcat">EDUARDO VELA</a></li>
+                    <li><a href="http://hmgmakarovich.blogspot.in/2017_01_01_archive.html">Reflected XSS in Etsy</a> - <a href="http://hmgmakarovich.blogspot.in">Harry M Gertos</a></li>
+                    <li><a href="https://blog.it-securityguard.com/bugbounty-sleeping-stored-google-xss-awakens-a-5000-bounty/">Sleeping stored Google XSS Awakens a $5000 Bounty</a> - Patrik Fehrenbach</li>
+                    <li><a href="https://dr4cun0.com/blog/stored-xss-at-exchange-onavo-com/">Stored XSS at exchange.onavo.com</a> - <a href="https://twitter.com/17haval">Dhaval</a></li>
+                    <li><a href="https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/">Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF</a></li>
+                    <li><a href="https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff">How I found a $5,000 Google Maps XSS</a> - <a href="https://medium.com/@marin_m">Marin Moulinier</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3>🔀 Cross Origin Resource Sharing Exploitation</h3>
+                <ol>
+                    <li><a href="https://medium.com/@sandh0t/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397">Think Outside the Scope: Advanced CORS Exploitation Techniques</a> - Sandh0t</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="csrf">🚫 Cross Site Request Forgery - CSRF</h3>
+                <ol>
+                    <li><a href="https://whitton.io/articles/messenger-site-wide-csrf/">Messenger.com Site-Wide CSRF</a> - <a href="https://twitter.com/fin1te">@fin1te</a></li>
+                    <li><a href="http://blog.darabi.me/2016/05/how-i-bypassed-facebook-csrf-in-2016.html">How I bypassed Facebook CSRF once again!</a> - <a href="https://twitter.com/Pouyadarabi">Pouya Darabi</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="ssrf">🔗 Server Side Request Forgery - SSRF</h3>
+                <ol>
+                    <li><a href="https://dr4cun0.com/blog/ssrf-at-update-subscription-menu/">SSRF at Facebook Update Subscription Menu</a> - <a href="https://twitter.com/17haval">Dhaval</a></li>
+                    <li><a href="https://www.rcesecurity.com/2017/03/ok-google-give-me-all-your-internal-dns-information/">Ok Google, Give Me All Your Internal DNS Information</a> - <a href="https://twitter.com/mrtuxracer">Julien Ahrens</a></li>
+                    <li><a href="http://www.anandpraka.sh/2017/03/how-anyone-could-have-used-uber-to-ride.html">How anyone could have used Uber to ride for free!</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="business-logic">🧠 Application/Business Logic</h3>
+                <ol>
+                    <li><a href="http://ashishpadelkar.com/index.php/2015/09/23/facebook-simple-technical-bug-worth-7500/">Facebook Simple Technical Bug worth 7500$</a> - <a href="https://twitter.com/ashish_padelkar">Ashish Padelkar</a></li>
+                    <li><a href="https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/">How I Could Steal Money from Instagram, Google and Microsoft</a> - Arne Swinnen</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="sqli">🗄️ SQL Injection - SQLi</h3>
+                <ol>
+                    <li><a href="https://bitquark.co.uk/blog/2014/08/31/popping_a_shell_on_the_oculus_developer_portal">Popping a shell on the Oculus developer portal</a> - <a href="https://twitter.com/Bitquark">Bitquark</a></li>
+                    <li><a href="https://www.ibrahim-elsayed.com/?p=150">SQLi + XXE + File path traversal Deutsche Telekom</a> - <a href="https://twitter.com/ibrahim_mosaad">Ibrahim M. El-Sayed</a></li>
+                    <li><a href="http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html">GitHub Enterprise SQL Injection</a> - Orange Tsai</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="idor">🔓 Insecure Direct Object Reference - IDOR</h3>
+                <ol>
+                    <li><a href="http://danmelamed.blogspot.in/2017/01/facebook-vulnerability-delete-any-video.html">Facebook Vulnerability - Delete Any Video on Facebook</a> - <a href="https://twitter.com/danmelamed">Dan Melamed</a></li>
+                    <li><a href="https://youtu.be/4euBQCMxlE8">Confirming new email/mobile number bug in Facebook</a> - Lokesh Kumar</li>
+                    <li><a href="http://www.anandpraka.sh/2015/06/how-i-hacked-zomatocom-to-see-data-of.html">How I hacked 62.5 million Zomato Users</a> - <a href="https://twitter.com/sehacure">Anand Prakash</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="code-execution">⚙️ Code Execution</h3>
+                <ol>
+                    <li><a href="http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html">Facebook's ImageTragick Story</a> - <a href="https://twitter.com/4lemon">@4lemon</a></li>
+                    <li><a href="https://security.szurek.pl/wd-my-cloud-mirror-211153-rce-and-authentication-bypass.html">WD My Cloud Mirror 2.11.153 RCE and Authentication Bypass</a> - <a href="https://twitter.com/kacper">Kacper Szurek</a></li>
+                    <li><a href="https://httpsonly.blogspot.in/2017/01/0day-writeup-xxe-in-ubercom.html">0day writeup: XXE in uber.com</a> - <a href="https://twitter.com/httpsonly">Vladimir Ivanov</a></li>
+                    <li><a href="http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html">Command injection which got me "6000$" from #Google</a> - S Venkatesh</li>
+                    <li><a href="http://buer.haus/2017/03/13/airbnb-ruby-on-rails-string-interpolation-led-to-remote-code-execution/">Airbnb – Ruby on Rails String Interpolation led to Remote Code Execution</a></li>
+                    <li><a href="http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html">GitHub Enterprise Remote Code Execution</a> - Markus Fenske</li>
+                    <li><a href="https://pentest.blog/unexpected-journey-4-escaping-from-restricted-shell-and-gaining-root-access-to-solarwinds-log-event-manager-siem-pr/">Escaping from Restricted Shell and Gaining Root Access</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="reverse-engineering">🔍 Reverse Engineering</h3>
+                <ol>
+                    <li><a href="http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part1.html">Unfolding obfuscated code with Reven (part 1)</a></li>
+                    <li><a href="http://blog.tetrane.com/2016/11/reversing-f4b-challenge-part2.html">Unfolding obfuscated code with Reven (part 2)</a></li>
+                    <li><a href="http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/">Three roads lead to Rome</a> - Luke Viruswalker</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="dns">🌐 DNS Related</h3>
+                <ol>
+                    <li><a href="https://thehackerblog.com/respect-my-authority-hijacking-broken-nameservers-to-compromise-your-target/">Hijacking Broken Nameservers to Compromise Your Target</a> - @IAmMandatory</li>
+                    <li><a href="https://dr4cun0.com/blog/that-which-made-the-difference/">That (.) Which Made The Difference</a> - <a href="https://twitter.com/17haval">Dhaval</a></li>
+                    <li><a href="https://www.mdsec.co.uk/2017/02/domain-fronting-via-cloudfront-alternate-domains/">Domain Fronting Via Cloudfront Alternate Domains</a> - Vincent Yiu</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="brute-force">🔐 Brute-force</h3>
+                <ol>
+                    <li><a href="http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html">How I could have hacked all Facebook accounts</a> - <a href="https://twitter.com/sehacure">Anand Prakash</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="subdomain-takeover">🎯 Subdomain Takeover</h3>
+                <ol>
+                    <li><a href="http://www.geekboy.ninja/blog/tag/hackerone-subdomain-takeover">Hijacking tons of Instapage expired users Domains & Subdomains</a> - @emgeekboy</li>
+                    <li><a href="https://labs.detectify.com/2016/10/05/the-story-of-ev-ssl-aws-and-trailing-dot-domains/">The story of EV-SSL, AWS and trailing dot domains</a> - Detectify</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="open-redirect">↪️ Open URL Redirection</h3>
+                <ol>
+                    <li><a href="http://yassineaboukir.com/blog/how-i-discovered-a-1000-open-redirect-in-facebook/">How I discovered a 1000$ open redirect in Facebook</a> - Yassine Aboukir</li>
+                    <li><a href="https://prakharprasad.com/facebook-whitehat-vulnerability-for-2013-open-redirection-in-facebook-mobile/">Facebook Whitehat Vulnerability for 2013: Open Redirection in Facebook Mobile</a> - Prakhar Prasad</li>
+                    <li><a href="https://prakharprasad.com/dropbox-team-website-open-redirection/">Dropbox Team Website Open Redirection</a> - Prakhar Prasad</li>
+                    <li><a href="https://strukt93.wordpress.com/2017/03/09/bypassing-soundclouds-protection-for-open-redirections/">Bypassing SoundCloud's protection for open redirections</a> - strukt93</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="xml">📝 XML Attacks</h3>
+                <ol>
+                    <li><a href="https://raviramesh.info/xml-attacks.html">eXtensible Markup Language Attacks</a> - Ravi Paghdal</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="http-smuggling">📨 HTTP Request Smuggling / Desync Attack</h3>
+                <ol>
+                    <li><a href="https://github.com/nachiketrathod/HTTP.Request.Smuggling.Desync.Attack">HTTP Request Smuggling Desync Attack</a></li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="research-papers">📄 Research Papers</h3>
+                <ol>
+                    <li><a href="https://www.bedefended.com/papers/cors-security-guide">The Complete Guide to CORS (In)Security</a> - Davide Danelon</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3 id="misc">🎲 Miscellaneous</h3>
+                <ol>
+                    <li><a href="https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/">Combining host header injection and lax host parsing serving malicious data</a></li>
+                    <li><a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/compromising-apache-tomcat-via-jmx-access/">Compromising Apache Tomcat via JMX access</a> - NCC Group UK</li>
+                    <li><a href="https://pranavhivarekar.in/2017/02/11/facebooks-bug-unauthorized-access-to-credit-card-details-limited-of-any-user/">Facebook's Bug - Unauthorized access to credit/prepaid card details</a></li>
+                    <li><a href="https://inventropy.us/blog/constructing-an-xss-vector-using-no-letters">Constructing an XSS vector, using no letters</a> - Charles Neill</li>
+                    <li><a href="http://philippeharewood.com/order-facebook-friends-by-facebook-recruiting-technical-coefficient/">Order Facebook Friends by Facebook Recruiting Technical Coefficient</a> - Philippe Harewood</li>
+                    <li><a href="http://omergil.blogspot.in/2017/02/web-cache-deception-attack.html">Web Cache Deception Attack</a> - Omer Gil</li>
+                    <li><a href="https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/">Hacking Slack using postMessage and WebSocket</a> - Frans Rosén</li>
+                    <li><a href="https://stephensclafani.com/2017/03/21/stealing-messenger-com-login-nonces/">Stealing Messenger.com Login Nonces</a> - Stephen Sclafani</li>
+                    <li><a href="https://medium.com/@gabecpike/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5">Escaping a Python sandbox with a memory corruption bug</a> - Gabe Pike</li>
+                    <li><a href="https://soroush.secproject.com/blog/2019/08/uploading-web-config-for-fun-and-profit-2/">Uploading web.config for Fun and Profit 2</a> - Soroush Dalili</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3>✨ Extras</h3>
+                <ol>
+                    <li><a href="https://blog.appcanary.com/2017/http-security-headers.html">Everything you need to know about HTTP security headers</a></li>
+                    <li><a href="https://helmetjs.github.io/docs/">Helmet JS</a></li>
+                    <li><a href="https://githubengineering.com/githubs-post-csp-journey/">GitHub's post-CSP journey</a> - Patrick Toomey</li>
+                    <li><a href="https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739#.bqddn2c22">CORS — a guided tour</a> - Martin Splitt</li>
+                    <li><a href="https://bhattsameer.github.io/2021/01/01/client-side-encryption-bypass-part-1.html">Client Side Encryption Bypass</a> - Sameer Bhatt</li>
+                </ol>
+            </div>
+            
+            <div class="category">
+                <h3>🏆 Categories</h3>
+                <ol>
+                    <li><a href="https://blog.zsec.uk/ltr101-methodologies/">LtR101: Web Application Testing Methodologies</a> - Andy</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="hr"></div>
+        
+        <footer>
+            <p>⭐ <strong>Stargazers over time:</strong></p>
+            <p><a href="https://starchart.cc/dhaval17/awsome-security-write-ups-and-POCs">View Stargazers Chart</a></p>
+            <p style="margin-top: 20px; font-size: 0.9em;">Made with ❤️ by the security community</p>
+        </footer>
+    </div>
+</body>
+</html>
